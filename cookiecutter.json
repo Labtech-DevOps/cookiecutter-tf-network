@@ -6,7 +6,7 @@
     "availability_zone":"availability_zone",
     "private":"privates",
     "public":"publics",
-    "enablenat":"enablegateway",
+    "enablegateway":"enablegateway",
     "singlegateway":"singlegateway",
     "enablevpn":"enablevpn"
  }
