@@ -1,0 +1,1 @@
+Integrar tags neste template para identificação de recursos para utilização na gestão dos custos em FinOps

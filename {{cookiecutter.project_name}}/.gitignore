@@ -1,0 +1,20 @@
+# Ignorar arquivos de configuração da Terraform
+*.tfstate
+*.tfstate.*
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tfout
+*.tfplan
+
+# Ignorar diretórios específicos da Terraform
+.terraform/
+terraform.tfstate.d/
+
+# Ignorar arquivos que podem conter credenciais sensíveis
+*.pem
+*.pem.key
+
+# Ignorar diretórios de backup
+*_backup/
+*~
