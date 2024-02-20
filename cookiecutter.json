@@ -3,7 +3,7 @@
     "aws_region":"us-east-1",
     "name_vpc":"main",
     "block_cidr":"block_cidr",
-    "availability_zone":"avalability_zone",
+    "availability_zone":"availability_zone",
     "private":"privates",
     "public":"publics",
     "enablenat":"enablegateway",
