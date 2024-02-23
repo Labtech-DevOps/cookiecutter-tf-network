@@ -1,12 +1,12 @@
 {
-    "project_name":"vpc-account-765890962141",
-    "aws_region":"us-east-1",
-    "name_vpc":"main",
-    "block_cidr":"block_cidr",
-    "availability_zone":"availability_zone",
-    "private_subnets":"private_subnets",
-    "public_subnets":"public_subnets",
-    "enable_nat_gateway":"enable_nat_gateway",
-    "single_nat_gateway":"single_nat_gateway",
-    "enable_vpn_gateway":"enable_vpn_gateway"
+    "project_name": "vpc-account-765890962141",
+    "aws_region": "us-east-1",
+    "name_vpc": "main",
+    "block_cidr": "block_cidr",
+    "availability_zone": "availability_zone",
+    "private_subnets": "private_subnets",
+    "public_subnets": "public_subnets",
+    "enable_nat_gateway": "enable_nat_gateway",
+    "single_nat_gateway": "single_nat_gateway",
+    "enable_vpn_gateway": "enable_vpn_gateway"
  }
