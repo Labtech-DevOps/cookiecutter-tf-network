@@ -1,7 +1,7 @@
 region             = "{{cookiecutter.aws_region}}"
 name               = "{{cookiecutter.name_vpc}}"
 cidr               = "{{cookiecutter.block_cidr}}"
-azs                = {{cookiecutter.azs}}
+azs                = {{cookiecutter.availability_zone}}
 private_subnets    = {{cookiecutter.private_subnets}}
 public_subnets     = {{cookiecutter.public_subnets}}
 enable_nat_gateway = {{cookiecutter.enable_nat_gateway}}
