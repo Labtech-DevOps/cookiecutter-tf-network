@@ -4,9 +4,9 @@
     "name_vpc":"main",
     "block_cidr":"block_cidr",
     "availability_zone":"availability_zone",
-    "private":"privates",
-    "public":"publics",
-    "enablegateway":"enablegateway",
-    "singlegateway":"singlegateway",
-    "enablevpn":"enablevpn"
+    "private":"private_subnets",
+    "public":"public_subnets",
+    "enable_nat_gateway":"enable_nat_gateway",
+    "single_nat_gateway":"single_nat_gateway",
+    "enable_vpn_gateway":"enable_vpn_gateway"
  }
