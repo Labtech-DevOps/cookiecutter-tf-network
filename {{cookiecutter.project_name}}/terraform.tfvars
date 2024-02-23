@@ -1,4 +1,4 @@
-region             = "{{cookiecutter.region}}"
+region             = "{{cookiecutter.aws_region}}"
 name               = "{{cookiecutter.name_vpc}}"
 cidr               = "{{cookiecutter.block_cidr}}"
 azs                = {{cookiecutter.azs}}
