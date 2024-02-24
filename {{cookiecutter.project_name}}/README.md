@@ -17,20 +17,31 @@ NAT Gateways (opcional):
 VPN Gateway (opcional):
 - Permite a habilitação de um VPN Gateway para estabelecer conexões seguras entre a VPC e redes locais.
 
-## Usage
+## Estrutura do Projeto
 
-```hcl
-module "{{cookiecutter.module_name}}" {
-  source = "https://github.com/cdsre/{{cookiecutter.module_name}}"
-}
+```sh
+{{cookiecutter.project_name}}/
+├── README.md
+├── main.tf
+├── output.tf
+├── provider.tf
+├── terraform.tfvars
+└── vars.tf
 ```
 
-## Examples
-There are a number of examples showing different flavours. These examples are not meant to be sourced into your terraform
-but instead to act as a reference which you can copy or use as runable examples locally.
+## Como usar
 
-- [{{cookiecutter.module_name}}](./examples/{{cookiecutter.module_name}})
+1. Clone o repositório
+```sh
+  git clone https://github.com/seu-usuario/{{cookiecutter.project_name}}.git
+  cd {{cookiecutter.project_name}}
+```
 
+2. Execute o Terraform para testes locais mas o recomendado é que seja utilizado atráves de uma pipeline.
+```sh
+  terraform init
+  terraform apply
+```
 
 # Terraform docs
 
