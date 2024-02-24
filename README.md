@@ -29,9 +29,9 @@ Responda às solicitações com suas próprias [options] desejadas. Por exemplo:
 "aws_region": "us-east-1",
 "name_vpc": "main",
 "block_cidr": "block_cidr",
-"availability_zone": "availability_zone",
-"private_subnets": "private_subnets",
-"public_subnets": "public_subnets",
+"availability_zone": "availability_zone", <<--- neste campo o formato deve ser: ´["us-east-1a", "us-east-1b", "us-east-1c"]´
+"private_subnets": "private_subnets", <<--- neste campo o formato deve ser: ´["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]´
+"public_subnets": "public_subnets", <<--- neste campo o formato deve ser: ´["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]´
 "enable_nat_gateway": "enable_nat_gateway",
 "single_nat_gateway": "single_nat_gateway",
 "enable_vpn_gateway": "enable_vpn_gateway"
