@@ -45,7 +45,7 @@ VPN Gateway (opcional):
 
 ## Pré-commit
 
-O .pre-commit é uma ferramenta útil para garantir a consistência e a qualidade do código em um repositório Terraform. Ele é usado para configurar hooks que são executados automaticamente antes de confirmar (commit) suas alterações no repositório, está config pode ser vista no arquivo ´.pre-commit-config.yaml´. Aqui está uma explicação básica de como usar o .pre-commit em um repositório Terraform:
+O .pre-commit é uma ferramenta útil para garantir a consistência e a qualidade do código em um repositório Terraform. Ele é usado para configurar hooks que são executados automaticamente antes de confirmar (commit) suas alterações no repositório, está config pode ser vista no arquivo .pre-commit-config.yaml´. Aqui está uma explicação básica de como usar o .pre-commit em um repositório Terraform:
 
 1. Instalar o pre-commit:
 Certifique-se de que o pre-commit está instalado no seu ambiente. Você pode instalá-lo usando o gerenciador de pacotes pip. Execute o seguinte comando no terminal:
