@@ -43,6 +43,32 @@ VPN Gateway (opcional):
   terraform apply
 ```
 
+## Pré-commit
+
+O .pre-commit é uma ferramenta útil para garantir a consistência e a qualidade do código em um repositório Terraform. Ele é usado para configurar hooks que são executados automaticamente antes de confirmar (commit) suas alterações no repositório, está config pode ser vista no arquivo ´.pre-commit-config.yaml´. Aqui está uma explicação básica de como usar o .pre-commit em um repositório Terraform:
+
+1. Instalar o pre-commit:
+Certifique-se de que o pre-commit está instalado no seu ambiente. Você pode instalá-lo usando o gerenciador de pacotes pip. Execute o seguinte comando no terminal:
+```sh
+pip install pre-commit
+```
+2. Inicializar o pre-commit no repositório:
+Execute o seguinte comando para inicializar o pre-commit no seu repositório:
+```sh
+pre-commit install
+```
+Isso criará um arquivo chamado .git/hooks/pre-commit que será executado antes de cada confirmação.
+
+3. Fazer um commit:
+Agora, sempre que você fizer um commit, os ganchos configurados serão executados automaticamente. Eles verificarão se o código está em conformidade com as regras definidas, como formatação adequada, ausência de espaços em branco indesejados, etc.
+
+4. Forçar a execução manual (opcional):
+Se necessário, você pode forçar a execução dos ganchos manualmente a qualquer momento usando o seguinte comando:
+```sh
+pre-commit run --all-files
+```
+Isso ajuda a manter a qualidade do código e a evitar problemas comuns antes mesmo de confirmar as alterações no repositório Terraform.
+
 # Terraform docs
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
